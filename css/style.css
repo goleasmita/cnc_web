@@ -1,0 +1,330 @@
+/*** Header carousel ***/
+@media (max-width: 768px) {
+  /* DATA SCIENCE BANNER IMAGE START */
+  .header-banner-data-science .banner-item-data-science {
+    position: relative;
+    min-height: 1060px;
+  }
+
+  .header-banner-data-science .banner-item-data-science img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .mobile {
+    margin-top: 150px;
+  }
+
+  .skill {
+    margin-top: 250px !important;
+  }
+
+  /* END */
+
+  /* CYBER SECURITY BANNER IMAGE START */
+  .header-banner-cyber-security .banner-item-cyber-security {
+    position: relative;
+    min-height: 1060px;
+  }
+
+  .header-banner-cyber-security .banner-item-cyber-security img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  /* END */
+
+  /* CLOUD COMPUTING BANNER IMAGE START */
+  .header-banner-cloud-computing .banner-item-cloud-computing {
+    position: relative;
+    min-height: 1040px;
+  }
+
+  .header-banner-cloud-computing .banner-item-cloud-computing img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  /* END */
+
+  /* FULLSTACK BANNER IMAGE START */
+  .header-banner-fullstack .banner-item-fullstack {
+    position: relative;
+    min-height: 1240px;
+  }
+
+  .header-banner-fullstack .banner-item-fullstack img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  /* END */
+
+  /* MECHANICAL CAD BANNER IMAGE START */
+  .header-banner-mechanical-cad .banner-item-mechanical-cad {
+    position: relative;
+    min-height: 1000px;
+  }
+
+  .header-banner-mechanical-cad .banner-item-mechanical-cad img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  /* END */
+
+  /* BIM  BANNER IMAGE START */
+  .header-banner-bim .banner-item-bim {
+    position: relative;
+    min-height: 650px;
+  }
+
+  .header-banner-bim .banner-item-bim img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  /* END */
+
+  /* CAD BANNER IMAGE START */
+  .header-banner-cad .banner-item-cad {
+    position: relative;
+    min-height: 1085px;
+  }
+
+  .header-banner-cad .banner-item-cad img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  /* END */
+
+  /* FASHION BANNER IMAGE START */
+  .header-banner-fashion .banner-item-fashion {
+    position: relative;
+    min-height: 800px;
+  }
+
+  .header-banner-fashion .banner-item-fashion img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  /* END */
+
+  .enquire {
+    margin-top: 100px;
+  }
+
+  .fixed-btn {
+    z-index: 1;
+    bottom: 0px;
+    position: fixed;
+    display: block;
+    border-radius: 0px;
+    max-width: 100%;
+  }
+
+  .fixed {
+    z-index: 1;
+    bottom: 0px;
+    position: fixed;
+    display: block;
+    border-radius: 0px;
+    max-width: 100%;
+  }
+
+  #mainBody {
+    margin-top: 0px !important;
+  }
+}
+.enquire {
+  position: relative;
+  top: -84px;
+}
+
+.fixed-btn-desktop {
+  z-index: 1;
+  bottom: 0px;
+  position: fixed;
+  display: block;
+  max-width: 20%;
+  right: 0%;
+  border-radius: 0%;
+}
+
+.fixed-desktop {
+  z-index: 1;
+  bottom: 0px;
+  position: fixed;
+  display: block;
+  max-width: 20%;
+  left: 0%;
+  border-radius: 0%;
+}
+
+/* Fashion Start */
+.fashion {
+  color: #fc079a;
+}
+
+/* Fashion End */
+
+/* JD Institute Interior Start */
+@media (max-width: 768px) {
+  .card-img {
+    height: 270px !important;
+  }
+}
+/* JD Institute Interior End */
+
+/* SAP */
+.main {
+  font-family: "Poppins", sans-serif;
+}
+
+.header nav {
+  background-color: #051d40;
+  width: 100%;
+  height: 70px;
+}
+
+.hero {
+  font-family: "Poppins", sans-serif;
+  background-image: url("../img/sap/hero.png");
+  background-size: cover; /* Ensures the background image covers the section */
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 10px 0; /* Adjusts top and bottom padding */
+}
+
+.heading {
+  font-weight: 700;
+  color: #223548;
+}
+
+.testimonial-section {
+  /* background-color: #f8f9fa; */
+  background-image: url("../img/sap/testimonial.png");
+}
+
+.card {
+  border-radius: 10px;
+  margin: 10px;
+}
+
+/* .card-body {
+    padding: 20px;
+} */
+
+.card-text {
+  font-size: 16px;
+  line-height: 1.4;
+  color: #333;
+}
+
+.testimonial::before {
+  content: url("../img/sap/line.png");
+  width: 20px;
+  height: 20px;
+  display: block;
+  position: relative;
+  left: 55%;
+  top: 35%;
+}
+
+/* Quick Enquiry Button Styles */
+.quick-enquiry .quick-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+/* Default Button */
+#quickEnquiryBtn {
+  background-color: #051d40;
+  border: none;
+  padding: 10px 18px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  display: none; /* Initially hidden */
+  transition: opacity 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+/* Button Hover Effect */
+#quickEnquiryBtn:hover {
+  background-color: #051d40;
+}
+
+/* Card styling */
+.student-card {
+  background: linear-gradient(
+    to bottom right,
+    #fff 65%,
+    #fff 0%,
+    #ececec 49%,
+    #cccccc 100%
+  );
+  border-radius: 10px;
+}
+/* Owl Carousel navigation */
+.owl-prev,
+.owl-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgb(22, 21, 21) !important;
+  color: rgb(255, 253, 253) !important;
+  padding: 10px;
+}
+.owl-prev {
+  left: -30px;
+}
+.owl-next {
+  right: -30px;
+}
+
+.ourStudents .owl-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ourStudents .owl-item div img {
+  height: 70px;
+  width: 210px;
+}
+@media (max-width: 1024px) {
+  .top-banner {
+    margin-top: 50vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .top-banner {
+    margin-top: 10vh;
+  }
+}
+
+@media (max-width: 425px) {
+  .top-banner {
+    margin-top: 50vh;
+  }
+}
+
+@media (max-width: 2024px) {
+  .b1 {
+    margin-bottom: 40px;
+  }
+}
