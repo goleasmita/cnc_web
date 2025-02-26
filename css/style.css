@@ -328,3 +328,9 @@
     margin-bottom: 40px;
   }
 }
+
+@media (max-width: 520px) {
+  .k1 {
+    word-break: break-all;
+  }
+}
